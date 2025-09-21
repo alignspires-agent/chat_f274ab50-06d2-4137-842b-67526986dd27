@@ -1,0 +1,340 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 9996.99 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 11:11:47,742 - INFO - Starting MoSEs experiment
+
+2025-09-21 11:11:47,743 - INFO - MoSEs framework initialized
+
+2025-09-21 11:11:47,743 - INFO - Building Stylistics Reference Repository (SRR)
+
+2025-09-21 11:11:47,743 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:47,744 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:48,040 - INFO - SRR built with 100 samples and 16 features
+
+2025-09-21 11:11:48,040 - INFO - Creating prototypes for Stylistics-Aware Router
+
+2025-09-21 11:11:48,040 - INFO - Created 3 prototypes
+
+2025-09-21 11:11:48,040 - INFO - Training Conditional Threshold Estimator (CTE)
+
+2025-09-21 11:11:48,231 - INFO - CTE model trained successfully
+
+2025-09-21 11:11:48,231 - INFO - 
+
+==================================================
+
+2025-09-21 11:11:48,231 - INFO - TESTING MoSEs FRAMEWORK
+
+2025-09-21 11:11:48,231 - INFO - ==================================================
+
+2025-09-21 11:11:48,231 - INFO - 
+
+Test 1:
+
+2025-09-21 11:11:48,231 - INFO - Text: This is a human-written article discussing the implications of artificial intelligence....
+
+2025-09-21 11:11:48,231 - INFO - Discrimination score: -0.3000
+
+2025-09-21 11:11:48,231 - INFO - Making prediction for input text with score: -0.3
+
+2025-09-21 11:11:48,231 - INFO - Routing input text using SAR with m=3
+
+2025-09-21 11:11:48,231 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:48,231 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:48,236 - INFO - SAR found 22 relevant reference samples
+
+2025-09-21 11:11:48,236 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:48,236 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:48,237 - INFO - Prediction: AI-generated
+
+2025-09-21 11:11:48,237 - INFO - Confidence: 1.0000
+
+2025-09-21 11:11:48,237 - INFO - 
+
+Test 2:
+
+2025-09-21 11:11:48,237 - INFO - Text: The rapid advancement of large language models has intensified public concerns....
+
+2025-09-21 11:11:48,237 - INFO - Discrimination score: 0.1000
+
+2025-09-21 11:11:48,237 - INFO - Making prediction for input text with score: 0.1
+
+2025-09-21 11:11:48,237 - INFO - Routing input text using SAR with m=3
+
+2025-09-21 11:11:48,237 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:48,237 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:48,240 - INFO - SAR found 22 relevant reference samples
+
+2025-09-21 11:11:48,241 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:48,241 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:48,241 - INFO - Prediction: AI-generated
+
+2025-09-21 11:11:48,241 - INFO - Confidence: 1.0000
+
+2025-09-21 11:11:48,241 - INFO - 
+
+Test 3:
+
+2025-09-21 11:11:48,241 - INFO - Text: As an AI system, I generate text based on patterns learned from training data....
+
+2025-09-21 11:11:48,241 - INFO - Discrimination score: 0.8000
+
+2025-09-21 11:11:48,242 - INFO - Making prediction for input text with score: 0.8
+
+2025-09-21 11:11:48,242 - INFO - Routing input text using SAR with m=3
+
+2025-09-21 11:11:48,242 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:48,242 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:48,245 - INFO - SAR found 22 relevant reference samples
+
+2025-09-21 11:11:48,245 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:48,245 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:48,245 - INFO - Prediction: AI-generated
+
+2025-09-21 11:11:48,246 - INFO - Confidence: 1.0000
+
+2025-09-21 11:11:48,246 - INFO - 
+
+==================================================
+
+2025-09-21 11:11:48,246 - INFO - EXPERIMENT SUMMARY
+
+2025-09-21 11:11:48,246 - INFO - ==================================================
+
+2025-09-21 11:11:48,246 - INFO - MoSEs framework successfully implemented with:
+
+2025-09-21 11:11:48,246 - INFO - - SRR containing 100 samples
+
+2025-09-21 11:11:48,246 - INFO - - 3 prototypes for SAR
+
+2025-09-21 11:11:48,246 - INFO - - CTE using logistic regression
+
+2025-09-21 11:11:48,246 - INFO - 
+
+Test results:
+
+2025-09-21 11:11:48,246 - INFO - Test 1: AI-generated (confidence: 1.0000)
+
+2025-09-21 11:11:48,246 - INFO - Test 2: AI-generated (confidence: 1.0000)
+
+2025-09-21 11:11:48,246 - INFO - Test 3: AI-generated (confidence: 1.0000)
+
+2025-09-21 11:11:48,246 - INFO - 
+
+Experiment completed successfully!
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 11:11:47,742 - INFO - Starting MoSEs experiment\n2025-09-21 11:11:47,743 - INFO - MoSEs framework initialized\n2025-09-21 11:11:47,743 - INFO - Building Stylistics Reference Repository (SRR)\n2025-09-21 11:11:47,743 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:47,744 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:48,040 - INFO - SRR built with 100 samples and 16 features\n2025-09-21 11:11:48,040 - INFO - Creating prototypes for Stylistics-Aware Router\n2025-09-21 11:11:48,040 - INFO - Created 3 prototypes\n2025-09-21 11:11:48,040 - INFO - Training Conditional Threshold Estimator (CTE)\n2025-09-21 11:11:48,231 - INFO - CTE model trained successfully\n2025-09-21 11:11:48,231 - INFO - \n==================================================\n2025-09-21 11:11:48,231 - INFO - TESTING MoSEs FRAMEWORK\n2025-09-21 11:11:48,231 - INFO - ==================================================\n2025-09-21 11:11:48,231 - INFO - \nTest 1:\n2025-09-21 11:11:48,231 - INFO - Text: This is a human-written article discussing the implications of artificial intelligence....\n2025-09-21 11:11:48,231 - INFO - Discrimination score: -0.3000\n2025-09-21 11:11:48,231 - INFO - Making prediction for input text with score: -0.3\n2025-09-21 11:11:48,231 - INFO - Routing input text using SAR with m=3\n2025-09-21 11:11:48,231 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:48,231 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:48,236 - INFO - SAR found 22 relevant reference samples\n2025-09-21 11:11:48,236 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:48,236 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:48,237 - INFO - Prediction: AI-generated\n2025-09-21 11:11:48,237 - INFO - Confidence: 1.0000\n2025-09-21 11:11:48,237 - INFO - \nTest 2:\n2025-09-21 11:11:48,237 - INFO - Text: The rapid advancement of large language models has intensified public concerns....\n2025-09-21 11:11:48,237 - INFO - Discrimination score: 0.1000\n2025-09-21 11:11:48,237 - INFO - Making prediction for input text with score: 0.1\n2025-09-21 11:11:48,237 - INFO - Routing input text using SAR with m=3\n2025-09-21 11:11:48,237 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:48,237 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:48,240 - INFO - SAR found 22 relevant reference samples\n2025-09-21 11:11:48,241 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:48,241 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:48,241 - INFO - Prediction: AI-generated\n2025-09-21 11:11:48,241 - INFO - Confidence: 1.0000\n2025-09-21 11:11:48,241 - INFO - \nTest 3:\n2025-09-21 11:11:48,241 - INFO - Text: As an AI system, I generate text based on patterns learned from training data....\n2025-09-21 11:11:48,241 - INFO - Discrimination score: 0.8000\n2025-09-21 11:11:48,242 - INFO - Making prediction for input text with score: 0.8\n2025-09-21 11:11:48,242 - INFO - Routing input text using SAR with m=3\n2025-09-21 11:11:48,242 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:48,242 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:48,245 - INFO - SAR found 22 relevant reference samples\n2025-09-21 11:11:48,245 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:48,245 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:48,245 - INFO - Prediction: AI-generated\n2025-09-21 11:11:48,246 - INFO - Confidence: 1.0000\n2025-09-21 11:11:48,246 - INFO - \n==================================================\n2025-09-21 11:11:48,246 - INFO - EXPERIMENT SUMMARY\n2025-09-21 11:11:48,246 - INFO - ==================================================\n2025-09-21 11:11:48,246 - INFO - MoSEs framework successfully implemented with:\n2025-09-21 11:11:48,246 - INFO - - SRR containing 100 samples\n2025-09-21 11:11:48,246 - INFO - - 3 prototypes for SAR\n2025-09-21 11:11:48,246 - INFO - - CTE using logistic regression\n2025-09-21 11:11:48,246 - INFO - \nTest results:\n2025-09-21 11:11:48,246 - INFO - Test 1: AI-generated (confidence: 1.0000)\n2025-09-21 11:11:48,246 - INFO - Test 2: AI-generated (confidence: 1.0000)\n2025-09-21 11:11:48,246 - INFO - Test 3: AI-generated (confidence: 1.0000)\n2025-09-21 11:11:48,246 - INFO - \nExperiment completed successfully!\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 7520.09 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: e0566f83-6ed5-4296-8b39-ae93ba1a46b8 Version: $LATEST
+
+RequestId: e0566f83-6ed5-4296-8b39-ae93ba1a46b8 Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: e0566f83-6ed5-4296-8b39-ae93ba1a46b8
+
+REPORT RequestId: e0566f83-6ed5-4296-8b39-ae93ba1a46b8	Duration: 7522.02 ms	Billed Duration: 7523 ms	Memory Size: 3008 MB	Max Memory Used: 118 MB	
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 11:11:49,416 - INFO - Starting MoSEs experiment
+
+2025-09-21 11:11:49,416 - INFO - MoSEs framework initialized
+
+2025-09-21 11:11:49,416 - INFO - Building Stylistics Reference Repository (SRR)
+
+2025-09-21 11:11:49,416 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:49,418 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:49,430 - INFO - SRR built with 100 samples and 16 features
+
+2025-09-21 11:11:49,430 - INFO - Creating prototypes for Stylistics-Aware Router
+
+2025-09-21 11:11:49,430 - INFO - Created 3 prototypes
+
+2025-09-21 11:11:49,430 - INFO - Training Conditional Threshold Estimator (CTE)
+
+2025-09-21 11:11:49,436 - INFO - CTE model trained successfully
+
+2025-09-21 11:11:49,436 - INFO - 
+
+==================================================
+
+2025-09-21 11:11:49,436 - INFO - TESTING MoSEs FRAMEWORK
+
+2025-09-21 11:11:49,436 - INFO - ==================================================
+
+2025-09-21 11:11:49,436 - INFO - 
+
+Test 1:
+
+2025-09-21 11:11:49,436 - INFO - Text: This is a human-written article discussing the implications of artificial intelligence....
+
+2025-09-21 11:11:49,436 - INFO - Discrimination score: -0.3000
+
+2025-09-21 11:11:49,436 - INFO - Making prediction for input text with score: -0.3
+
+2025-09-21 11:11:49,436 - INFO - Routing input text using SAR with m=3
+
+2025-09-21 11:11:49,436 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:49,436 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:49,444 - INFO - SAR found 22 relevant reference samples
+
+2025-09-21 11:11:49,444 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:49,444 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:49,445 - INFO - Prediction: AI-generated
+
+2025-09-21 11:11:49,445 - INFO - Confidence: 1.0000
+
+2025-09-21 11:11:49,445 - INFO - 
+
+Test 2:
+
+2025-09-21 11:11:49,445 - INFO - Text: The rapid advancement of large language models has intensified public concerns....
+
+2025-09-21 11:11:49,445 - INFO - Discrimination score: 0.1000
+
+2025-09-21 11:11:49,446 - INFO - Making prediction for input text with score: 0.1
+
+2025-09-21 11:11:49,446 - INFO - Routing input text using SAR with m=3
+
+2025-09-21 11:11:49,446 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:49,446 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:49,449 - INFO - SAR found 22 relevant reference samples
+
+2025-09-21 11:11:49,449 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:49,449 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:49,450 - INFO - Prediction: AI-generated
+
+2025-09-21 11:11:49,450 - INFO - Confidence: 1.0000
+
+2025-09-21 11:11:49,450 - INFO - 
+
+Test 3:
+
+2025-09-21 11:11:49,450 - INFO - Text: As an AI system, I generate text based on patterns learned from training data....
+
+2025-09-21 11:11:49,450 - INFO - Discrimination score: 0.8000
+
+2025-09-21 11:11:49,450 - INFO - Making prediction for input text with score: 0.8
+
+2025-09-21 11:11:49,450 - INFO - Routing input text using SAR with m=3
+
+2025-09-21 11:11:49,450 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:49,450 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:49,454 - INFO - SAR found 22 relevant reference samples
+
+2025-09-21 11:11:49,454 - INFO - Extracting linguistic features from texts
+
+2025-09-21 11:11:49,454 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 11:11:49,454 - INFO - Prediction: AI-generated
+
+2025-09-21 11:11:49,454 - INFO - Confidence: 1.0000
+
+2025-09-21 11:11:49,455 - INFO - 
+
+==================================================
+
+2025-09-21 11:11:49,455 - INFO - EXPERIMENT SUMMARY
+
+2025-09-21 11:11:49,455 - INFO - ==================================================
+
+2025-09-21 11:11:49,455 - INFO - MoSEs framework successfully implemented with:
+
+2025-09-21 11:11:49,455 - INFO - - SRR containing 100 samples
+
+2025-09-21 11:11:49,455 - INFO - - 3 prototypes for SAR
+
+2025-09-21 11:11:49,455 - INFO - - CTE using logistic regression
+
+2025-09-21 11:11:49,455 - INFO - 
+
+Test results:
+
+2025-09-21 11:11:49,455 - INFO - Test 1: AI-generated (confidence: 1.0000)
+
+2025-09-21 11:11:49,455 - INFO - Test 2: AI-generated (confidence: 1.0000)
+
+2025-09-21 11:11:49,455 - INFO - Test 3: AI-generated (confidence: 1.0000)
+
+2025-09-21 11:11:49,455 - INFO - 
+
+Experiment completed successfully!
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 11:11:49,416 - INFO - Starting MoSEs experiment\n2025-09-21 11:11:49,416 - INFO - MoSEs framework initialized\n2025-09-21 11:11:49,416 - INFO - Building Stylistics Reference Repository (SRR)\n2025-09-21 11:11:49,416 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:49,418 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:49,430 - INFO - SRR built with 100 samples and 16 features\n2025-09-21 11:11:49,430 - INFO - Creating prototypes for Stylistics-Aware Router\n2025-09-21 11:11:49,430 - INFO - Created 3 prototypes\n2025-09-21 11:11:49,430 - INFO - Training Conditional Threshold Estimator (CTE)\n2025-09-21 11:11:49,436 - INFO - CTE model trained successfully\n2025-09-21 11:11:49,436 - INFO - \n==================================================\n2025-09-21 11:11:49,436 - INFO - TESTING MoSEs FRAMEWORK\n2025-09-21 11:11:49,436 - INFO - ==================================================\n2025-09-21 11:11:49,436 - INFO - \nTest 1:\n2025-09-21 11:11:49,436 - INFO - Text: This is a human-written article discussing the implications of artificial intelligence....\n2025-09-21 11:11:49,436 - INFO - Discrimination score: -0.3000\n2025-09-21 11:11:49,436 - INFO - Making prediction for input text with score: -0.3\n2025-09-21 11:11:49,436 - INFO - Routing input text using SAR with m=3\n2025-09-21 11:11:49,436 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:49,436 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:49,444 - INFO - SAR found 22 relevant reference samples\n2025-09-21 11:11:49,444 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:49,444 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:49,445 - INFO - Prediction: AI-generated\n2025-09-21 11:11:49,445 - INFO - Confidence: 1.0000\n2025-09-21 11:11:49,445 - INFO - \nTest 2:\n2025-09-21 11:11:49,445 - INFO - Text: The rapid advancement of large language models has intensified public concerns....\n2025-09-21 11:11:49,445 - INFO - Discrimination score: 0.1000\n2025-09-21 11:11:49,446 - INFO - Making prediction for input text with score: 0.1\n2025-09-21 11:11:49,446 - INFO - Routing input text using SAR with m=3\n2025-09-21 11:11:49,446 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:49,446 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:49,449 - INFO - SAR found 22 relevant reference samples\n2025-09-21 11:11:49,449 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:49,449 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:49,450 - INFO - Prediction: AI-generated\n2025-09-21 11:11:49,450 - INFO - Confidence: 1.0000\n2025-09-21 11:11:49,450 - INFO - \nTest 3:\n2025-09-21 11:11:49,450 - INFO - Text: As an AI system, I generate text based on patterns learned from training data....\n2025-09-21 11:11:49,450 - INFO - Discrimination score: 0.8000\n2025-09-21 11:11:49,450 - INFO - Making prediction for input text with score: 0.8\n2025-09-21 11:11:49,450 - INFO - Routing input text using SAR with m=3\n2025-09-21 11:11:49,450 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:49,450 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:49,454 - INFO - SAR found 22 relevant reference samples\n2025-09-21 11:11:49,454 - INFO - Extracting linguistic features from texts\n2025-09-21 11:11:49,454 - INFO - Extracting semantic embeddings from texts\n2025-09-21 11:11:49,454 - INFO - Prediction: AI-generated\n2025-09-21 11:11:49,454 - INFO - Confidence: 1.0000\n2025-09-21 11:11:49,455 - INFO - \n==================================================\n2025-09-21 11:11:49,455 - INFO - EXPERIMENT SUMMARY\n2025-09-21 11:11:49,455 - INFO - ==================================================\n2025-09-21 11:11:49,455 - INFO - MoSEs framework successfully implemented with:\n2025-09-21 11:11:49,455 - INFO - - SRR containing 100 samples\n2025-09-21 11:11:49,455 - INFO - - 3 prototypes for SAR\n2025-09-21 11:11:49,455 - INFO - - CTE using logistic regression\n2025-09-21 11:11:49,455 - INFO - \nTest results:\n2025-09-21 11:11:49,455 - INFO - Test 1: AI-generated (confidence: 1.0000)\n2025-09-21 11:11:49,455 - INFO - Test 2: AI-generated (confidence: 1.0000)\n2025-09-21 11:11:49,455 - INFO - Test 3: AI-generated (confidence: 1.0000)\n2025-09-21 11:11:49,455 - INFO - \nExperiment completed successfully!\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1167.47 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
